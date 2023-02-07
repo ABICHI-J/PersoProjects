@@ -1,0 +1,79 @@
+CODE
+
+    let str = "I don't know why";
+    let faux = "Non";
+    let vrai = "Oui";
+
+    if(str.includes("y") == true){ 
+    console.log(vrai);
+    }
+    else{
+    console.log(result);
+    }
+
+
+EXPLICACION
+
+    Les 3 variables utilisé dans ce code sont de type "string";
+    Dédiés à l'enregistrement du texte;
+    Encadrés par des guillements doubles ou simples.
+
+
+    "str" "faux" "vrai" (Noms des variables)
+        
+
+    "str"
+        Stocke la valeur "I don't know why".
+
+    "faux"
+        Stocke la valeur "Non".
+    
+    "vrai"
+        Stocke la valeur "Oui".
+
+    
+    if(str.includes("y") == true) 
+
+        Ceci ce traduit par :
+        "si la variable 'str' contient la lettre 'y' ceci est égal à 'true'".
+
+        On utilise 'includes' pour que javascript recherche la valeur 'y' dans le contenu de la variable 'str'.
+
+        Quand javascript trouve la valeur 'y' dans le contenu de la variable 'str' il envoie 'true'.
+
+        Donc la condition "true" == "true" se respecte.
+
+        "{}" se traduit par "alors".
+
+        On utilise 'console.log(vrai)' pour afficher le résultat.
+
+        On rajoute la variable (vrai) suite à 'console.log' pour afficher son contenu,
+        dans ce cas c'est 'oui' qui va remplacer 'true'.
+
+
+    else{
+    console.log(result);
+    } 
+
+        Ceci se traduit par :
+        "Dans tout autre cas afficher le contenu de la variable "result".
+
+        javascript n'as pas trouvé la valeur "y" dans le contenu de la variable "str". 
+        
+        Alors on lui dit  d'afficher le contenu de la variable "result" dans ce cas c'est la valeur "Non".
+
+
+    Etant donné que la valeur 'y' est présente dans le contenu de la variable 'str' alors "else" n'est pas éxecuté.
+
+
+
+
+    
+
+
+
+
+
+
+
+
